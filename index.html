@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pirataflix</h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Pirate_Flag_of_Jack_Rackham.svg/1920px-Pirate_Flag_of_Jack_Rackham.svg.png"
+        class="page-logo"
+        alt=""
+      />
+      <p>Qual seu filme favorito?</p>
+      <div>
+        <input
+          type="text"
+          id="filme"
+          name="filme"
+          placeholder="Insira endereço de imagem"
+        />
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+      </div>
+    </div>
+    <div id="listaFilmes">
+      <script src="./montar.js"></script>
+    </div>
+  </body>
+</html>

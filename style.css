@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #000000;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+p {
+  color: #ffffff;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 230px;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: 0.5s;
+}
